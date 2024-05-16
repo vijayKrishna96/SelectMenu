@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SelectMenu</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="selector">
+            <div id="selectField">
+                <p id="selectText">Select Social Media</p>
+                <img src="./images/arrow.png" id="arrowIcon">
+            </div>
+
+            <ul  id="list" class="hide">
+                <li class="options">
+                    <button onclick="Goto('https://www.facebook.com/login.php/')">
+                        <img src="./images/facebook.png" >
+                        <p>Facebook</p>
+                    </button>
+                </li>
+                <li class="options">
+                    <button onclick="Goto('https://www.instagram.com/?hl=en')">
+                        <img src="./images/instagram.png" >
+                        <p>Instagram</p>
+                    </button>
+                </li>
+                <li class="options">
+                    <button onclick="Goto('https://www.pinterest.com/')">
+                        <img src="./images/pinterest.png" >
+                        <p>Pinterest</p>
+                    </button>
+                </li>
+                <li class="options">
+                    <button onclick="Goto('https://twitter.com/?lang=en-in')">
+                        <img src="./images/twitter.png">
+                        <p>Twitter</p>
+                    </button>
+                </li>
+                <li class="options">
+                    <button onclick="Goto('https://web.whatsapp.com/')">
+                        <img src="./images/whatsapp.png" >
+                        <p>Whatsapp</p>
+                    </button>
+                </li>
+                <li class="options">
+                    <button onclick="Goto('https://www.youtube.com/?gl=IN')">
+                        <img src="./images/youtube.png" >
+                        <p>Youtube</p>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<script src="./script.js"></script>    
+</body>
+</html>
